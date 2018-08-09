@@ -31,6 +31,7 @@ function submitHandler(e){
 		tasks.push(input.value);
 		localStorage.setItem("tasks", JSON.stringify(tasks));
 		createListItem(input.value);
+		input.value = "";
 	}
 }
 
