@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TasksList</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div class="card">
+		<h1 class="card__title">
+			Task List
+		</h1>
+		<form class="task">
+			<label for="task">new Task</label>
+			<input type="text" name="task" id="taskInput">
+			<button type="submit" class="btn" id="taskBtn">Add Task</button>
+		</form>
+		<hr>
+		<ul class="collection">
+		</ul>
+		<hr>
+		<div class="clearTask">
+			<button class="btn" id="clearBtn">ClearTask</button>
+		</div>
+	</div>
+
+	<script src="app.js"></script>
+</body>
+</html>

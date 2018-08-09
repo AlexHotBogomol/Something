@@ -1,0 +1,58 @@
+.card{
+	box-sizing: border-box;
+	margin: 100px auto;
+	max-width: 800px;
+	padding: 50px;
+	background: #cecece;
+}
+
+.task{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 15px 0;
+}
+
+.task input{
+	padding:5px 15px ;
+	margin-right: 20px;
+}
+.task label{
+	margin-right: 20px;
+	font-size: 20px;
+}
+.btn{
+	border: none;
+	background: crimson;
+	padding: 5px;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.collection{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.collection__item{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: crimson;
+	padding: 5px 10px;
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.collection__item a{
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+.clearTask{
+	margin-top: 40px;
+}
